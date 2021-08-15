@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	>
+
+    <GridLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:rowCount="8"
+		android:columnCount="1"
+        android:id="@+id/gridLayout1" >
+	
+        <Button
+			android:text="10"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/button10" />
+	
+        <Button
+			android:text="20"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/button20" />
+
+        <Button
+			android:text="30"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/button30" />
+
+        <Button
+			android:text="50"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/button50" />
+
+		<Button
+			android:text="100"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/button100" />
+
+		<Button
+			android:text="200"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/button200" />
+
+		<Button
+			android:text="300"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/button300" />
+
+		<Button
+			android:text="Other amount"
+			android:onClick="WithdrawaAmountOther"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/buttonOtherAmount" />
+
+		<Button
+			android:text="Back"
+			android:onClick="BackClick"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/withdrawlBackButton" />
+
+	</GridLayout>
+
+</LinearLayout>
